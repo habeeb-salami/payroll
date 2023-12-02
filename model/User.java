@@ -3,9 +3,10 @@ package model;
 public class User {
     private String Email;
     private String Password;
-    private Boolean IsAuthent;
-    private String Phone;
+    private Boolean Status;
+    // private String Phone;
     private String FullName;
+    private String Role;
 
     public String getEmail() {
         return this.Email;
@@ -23,12 +24,19 @@ public class User {
         this.Password = password;
     }
 
-    public String getPhone() {
-        return this.Phone;
+    // public String getPhone() {
+    // return this.Phone;
+    // }
+
+    // public void setPhone(String phone) {
+    // this.Phone = phone;
+    // }
+    public String getRole() {
+        return this.Role;
     }
 
-    public void setPhone(String phone) {
-        this.Phone = phone;
+    public void setRole(String role) {
+        this.Role = role;
     }
 
     public String getFullName() {
@@ -39,12 +47,12 @@ public class User {
         this.FullName = fullName;
     }
 
-    public Boolean getIsAuthent() {
-        return this.IsAuthent;
+    public Boolean getStatus() {
+        return this.Status;
     }
 
-    public void setIsAuthent(Boolean isAuthent) {
-        this.IsAuthent = isAuthent;
+    public void setStatus(Boolean Status) {
+        this.Status = Status;
     }
 
 }

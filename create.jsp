@@ -52,7 +52,7 @@
                                                 </p>
                                                 <% } } %>
                                 </div>
-                                <form method="post" action="">
+                                <form method="post" action="" enctype="multipart/form-data">
                                     <div class="mb-3">
                                         <label class="form-label" for="name">Name:</label>
                                         <input class="form-control" type="text" name="name" id="name"
@@ -111,13 +111,9 @@
                             <div class="col-md-3">
                             </div>
                         </div>
-                        <footer class=" footer">
-                            Footer Area
-                        </footer>
+
                     </div>
-                    <script src="js/popper.min.js"></script>
-                    <script src="js/jquery.min.js"></script>
-                    <script src="js/bootstrap.bundle.min.js"></script>
+                    <%@ include file="includes/footer.jsp" %>
             </body>
 
             </html>

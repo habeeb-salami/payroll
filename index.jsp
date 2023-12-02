@@ -19,6 +19,7 @@
                 <%@ include file="includes/navbar.jsp" %>
                     <div class="container-fluid">
                         <div class="row">
+                            <hr />
                             <div class="col-md-3">
                                 <div class=" header-main">
                                     <%@ include file="includes/sidebar.jsp" %>
@@ -80,13 +81,9 @@
                                 </table>
                             </div>
                         </div>
-                        <footer class=" footer">
-                            Footer Area
-                        </footer>
+
                     </div>
-                    <script src="js/popper.min.js"></script>
-                    <script src="js/jquery.min.js"></script>
-                    <script src="js/bootstrap.bundle.min.js"></script>
+                    <%@ include file="includes/footer.jsp" %>
             </body>
 
             </html>
