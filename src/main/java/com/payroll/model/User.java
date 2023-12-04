@@ -1,4 +1,4 @@
-package model;
+package com.payroll.model;
 
 public class User {
     private String Email;
